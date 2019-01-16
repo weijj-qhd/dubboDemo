@@ -8,14 +8,14 @@ import com.kunlun.server.api.Provider1ServerApi;
 
 public class ConsumerMain {
 	public static void main(String[] args){
-        //测试常规服务
+        //虏芒脢脭鲁拢鹿忙路镁脦帽
         ClassPathXmlApplicationContext context =
                 new ClassPathXmlApplicationContext("consumer.xml");
         context.start();
-        System.out.println("consumer start");
+        System.out.println("consumer start...");
         Provider1ServerApi demoService = context.getBean(Provider1ServerApi.class);
         //Provider1ServerApi demoService = (Provider1ServerApi) context.getBean("fjds");
         System.out.println("consumer");
-        System.out.println(demoService.testProvider1("成功了"));
+        System.out.println(demoService.testProvider1("鲁脡鹿娄脕脣"));
     }
 }
