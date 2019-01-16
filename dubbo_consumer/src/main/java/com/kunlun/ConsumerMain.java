@@ -17,11 +17,5 @@ public class ConsumerMain {
         //Provider1ServerApi demoService = (Provider1ServerApi) context.getBean("fjds");
         System.out.println("consumer");
         System.out.println(demoService.testProvider1("³É¹¦"));
-        try {
-			System.in.read();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
     }
 }
