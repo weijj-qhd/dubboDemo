@@ -16,6 +16,6 @@ public class ConsumerMain {
         Provider1ServerApi demoService = context.getBean(Provider1ServerApi.class);
         //Provider1ServerApi demoService = (Provider1ServerApi) context.getBean("fjds");
         System.out.println("consumer");
-        System.out.println(demoService.testProvider1("成功"));
+        System.out.println(demoService.testProvider1("成功了"));
     }
 }
